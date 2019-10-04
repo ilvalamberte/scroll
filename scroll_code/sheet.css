@@ -30,7 +30,7 @@ main {
     background-color: #eee;
 }
 
-html:not([data-scroll='-10']) .text1 {
+html:not([data-scroll='0']) .text1 {
    
  opacity: 1;
     background-color: green;
@@ -45,7 +45,7 @@ html:not([data-scroll='-10']) .text1 {
     background-color: #eee;
 }
 
-html:not([data-scroll='-200']) .text2 {
+html:not([data-scroll='0']) .text2 {
    
  opacity: 1;
     background-color: pink;
