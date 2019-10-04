@@ -1,0 +1,89 @@
+
+header {
+    width: 100%;
+    min-height: 3em;
+    background-color: #eee;
+}
+html:not([data-scroll='0']) body {
+    padding-top: 3em;
+}
+html:not([data-scroll='0']) header {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, .5);
+}
+header {
+    box-sizing: border-box;
+    padding: 1em;
+    transition: background-color 0.25s;
+}
+main {
+    padding: 0 1em;
+}
+
+
+
+.text1 {
+    width: 100%;
+    min-height: 3em;
+    background-color: #eee;
+}
+
+html:not([data-scroll='-10']) .text1 {
+   
+ opacity: 1;
+    background-color: green;
+    
+}
+
+
+
+.text2 {
+    width: 100%;
+    min-height: 3em;
+    background-color: #eee;
+}
+
+html:not([data-scroll='-200']) .text2 {
+   
+ opacity: 1;
+    background-color: pink;
+    
+}
+
+
+
+.text3 {
+    width: 100%;
+    min-height: 3em;
+    background-color: #eee;
+}
+
+html:not([data-scroll='0']) .text3 {
+   
+ opacity: 1;
+    background-color: red;
+    
+}
+
+
+.text4 {
+    width: 100%;
+    min-height: 3em;
+    background-color: #eee;
+}
+
+html:not([data-scroll='0']) .text4 {
+   
+ opacity: 1;
+    background-color: red;
+    
+}
+
+
+
+div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
