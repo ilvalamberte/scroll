@@ -1,89 +1,32 @@
-
 header {
-    width: 100%;
-    min-height: 3em;
-    background-color: #eee;
+    background: purple;
+    padding: 1rem;
+    color: white;
 }
-html:not([data-scroll='0']) body {
-    padding-top: 3em;
-}
-html:not([data-scroll='0']) header {
+body.header-not-at-top header {
     position: fixed;
     top: 0;
-    background-color: #fff;
-    box-shadow: 0 0 0.5em rgba(0, 0, 0, .5);
+    left: 0;
+    width: 100%;
 }
-header {
-    box-sizing: border-box;
-    padding: 1em;
-    transition: background-color 0.25s;
+body.header-not-at-top {
+    padding-top: 44px;
+}
+#top-of-site-pixel-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 500px;
+    left: 0;
+}
+body {
+    
+    line-height: 1.4;
+    font-size: 125%;
+    margin: 0;
+    padding: 10px;
 }
 main {
-    padding: 0 1em;
-}
-
-
-
-.text1 {
-    width: 100%;
-    min-height: 3em;
-    background-color: #eee;
-}
-
-html:not([data-scroll='0']) .text1 {
-   
- opacity: 1;
-    background-color: green;
-    
-}
-
-
-
-.text2 {
-    width: 100%;
-    min-height: 3em;
-    background-color: #eee;
-}
-
-html:not([data-scroll='0']) .text2 {
-   
- opacity: 1;
-    background-color: pink;
-    
-}
-
-
-
-.text3 {
-    width: 100%;
-    min-height: 3em;
-    background-color: #eee;
-}
-
-html:not([data-scroll='0']) .text3 {
-   
- opacity: 1;
-    background-color: red;
-    
-}
-
-
-.text4 {
-    width: 100%;
-    min-height: 3em;
-    background-color: #eee;
-}
-
-html:not([data-scroll='0']) .text4 {
-   
- opacity: 1;
-    background-color: red;
-    
-}
-
-
-
-div {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    max-width: 500px;
+    margin: 20px auto;
 }
